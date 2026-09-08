@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Kalyan Parvatham — Data Analyst | AI & ML Portfolio">
+<title>Kalyan Parvatham | Data Analyst & AI/ML</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress"></div>
+<header class="nav">
+  <a class="brand" href="#home">KP<span>.</span></a>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+    <a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="theme" id="themeBtn" aria-label="Toggle theme">◐</button>
+</header>
+
+<main>
+<section id="home" class="hero section">
+  <div class="hero-copy">
+    <p class="eyebrow">DATA ANALYST · AI & ML</p>
+    <h1>Turning data into <span>clear decisions.</span></h1>
+    <p class="lead">B.Tech CSE (AI & ML) graduate focused on Python, SQL, Power BI, analytics and predictive modelling. I build practical data products, dashboards and ML projects.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Explore my work →</a>
+      <a class="btn ghost" href="assets/Kalyan_Parvatham_Resume.pdf" download>Download resume</a>
+    </div>
+    <div class="mini">
+      <span>📍 Telangana, India</span><span>✉ kalyanparvathamkalyan@gmail.com</span>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="glow"></div>
+    <img src="assets/profile.png" alt="Kalyan Parvatham">
+    <div class="floating-card top">Python · SQL · Power BI</div>
+    <div class="floating-card bottom"><b>93.17%</b><small>reported ML accuracy</small></div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-head"><p class="eyebrow">01 · ABOUT</p><h2>Analytical mindset, practical execution.</h2></div>
+  <div class="about-grid">
+    <p>I’m a Computer Science (AI & ML) graduate with hands-on experience across data analytics, fintech, Python development and web development. My work spans data cleaning, EDA, SQL databases, dashboards, data pipelines and predictive models.</p>
+    <div class="stats"><div><b>4+</b><span>Internships</span></div><div><b>6+</b><span>Projects</span></div><div><b>7.21</b><span>B.Tech CGPA</span></div></div>
+  </div>
+</section>
+
+<section id="skills" class="section alt">
+  <div class="section-head"><p class="eyebrow">02 · TOOLKIT</p><h2>Tools I work with.</h2></div>
+  <div class="skill-grid">
+    <div class="skill"><b>Python</b><span>Pandas · NumPy · Matplotlib · Scikit-learn · XGBoost · OpenCV</span></div>
+    <div class="skill"><b>Data Analytics</b><span>EDA · Cleaning · Data Mining · Statistical Analysis · Feature Engineering</span></div>
+    <div class="skill"><b>BI & Visualization</b><span>Power BI · Excel · Dashboard Development · Data Storytelling</span></div>
+    <div class="skill"><b>Databases</b><span>SQL · MySQL · SQLite · Relational Databases</span></div>
+    <div class="skill"><b>AI / ML</b><span>Predictive Modelling · XGBoost · Correlation Analysis</span></div>
+    <div class="skill"><b>Development</b><span>HTML · React · Node.js · REST APIs · Git · VS Code</span></div>
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <div class="section-head"><p class="eyebrow">03 · EXPERIENCE</p><h2>Where I’ve applied my skills.</h2></div>
+  <div class="timeline">
+    <article><div class="dot"></div><div><p class="date">JUN 2026 — AUG 2026</p><h3>Data Analyst Intern · Bluestock Fintech</h3><p>Worked on a Mutual Fund Analytics Platform. Cleaned and validated financial datasets, designed normalized SQLite schemas, wrote SQL for KPIs and collaborated on fintech analytics requirements.</p></div></article>
+    <article><div class="dot"></div><div><p class="date">AUG 2025 — NOV 2025</p><h3>Data Analyst Intern · Uptoskills</h3><p>Built interactive Power BI dashboards, cleaned business datasets, performed EDA and applied data-mining techniques for reporting and business intelligence.</p></div></article>
+    <article><div class="dot"></div><div><p class="date">APR 2025 — JUN 2025</p><h3>Web Developer Intern · VaultofCode</h3><p>Developed frontend and backend components using React and Node.js, with relational databases and REST APIs.</p></div></article>
+    <article><div class="dot"></div><div><p class="date">JUN 2024 — NOV 2024</p><h3>Python Developer Intern · ECODE Learning Software Services</h3><p>Built Python automation and data-processing scripts using Pandas, NumPy and Matplotlib.</p></div></article>
+  </div>
+</section>
+
+<section id="projects" class="section alt">
+  <div class="section-head row"><div><p class="eyebrow">04 · PROJECTS</p><h2>Selected work.</h2></div>
+  <div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="data">Data</button><button class="filter" data-filter="ml">ML/AI</button><button class="filter" data-filter="web">Web</button></div></div>
+  <div class="project-grid" id="projectGrid">
+    <article class="project" data-cat="data" data-title="Mutual Fund Analytics Platform" data-desc="Analytics platform for NAV trends, returns and risk metrics. SQLite schema, raw-data cleaning and SQL performance reports." data-tech="Python, SQLite, Pandas, Flask">
+      <div class="project-media media-fin"><span>FINTECH</span><b>Mutual Fund<br>Analytics</b></div><div class="project-body"><p>DATA · JUN 2026 — PRESENT</p><h3>Mutual Fund Analytics Platform</h3><p>Python, SQLite, Pandas, Flask</p><button class="view">View details ↗</button></div>
+    </article>
+    <article class="project" data-cat="ml" data-title="Stock Market Prediction" data-desc="Hybrid ML model combining XGBoost classification with Pearson Correlation for feature selection, plus feature engineering and hyperparameter tuning." data-tech="Python, XGBoost, Scikit-learn">
+      <div class="project-media media-ml"><span>ML</span><b>Stock Market<br>Prediction</b></div><div class="project-body"><p>ML · 2025 — 2026</p><h3>Stock Market Prediction</h3><p>XGBoost + Pearson Correlation</p><button class="view">View details ↗</button></div>
+    </article>
+    <article class="project" data-cat="data" data-title="Student Data Analysis Dashboard" data-desc="Collected and cleaned B.Tech student data in Excel and created interactive Power BI dashboards and insight reports." data-tech="Excel, Power BI">
+      <div class="project-media media-bi"><span>BI</span><b>Student Data<br>Dashboard</b></div><div class="project-body"><p>DATA · JAN 2025 — JUN 2025</p><h3>Student Data Analysis Dashboard</h3><p>Excel + Power BI</p><button class="view">View details ↗</button></div>
+    </article>
+    <article class="project" data-cat="ml" data-title="Density-Based Smart Traffic System" data-desc="Real-time traffic-density analysis using image processing and Canny edge detection to turn traffic frames into quantifiable metrics." data-tech="Python, OpenCV, Canny Edge Detection">
+      <div class="project-media media-cv"><span>COMPUTER VISION</span><b>Smart Traffic<br>System</b></div><div class="project-body"><p>AI · JAN 2025 — JUN 2025</p><h3>Density-Based Smart Traffic System</h3><p>Python + OpenCV</p><button class="view">View details ↗</button></div>
+    </article>
+    <article class="project" data-cat="data" data-title="Learning Behaviour Analysis" data-desc="Used EDA and statistical techniques to analyze student learning patterns and behavioural trends related to academic performance." data-tech="Python, EDA, Data Analysis">
+      <div class="project-media media-learn"><span>ANALYTICS</span><b>Learning Behaviour<br>Analysis</b></div><div class="project-body"><p>DATA · JUN 2025 — DEC 2025</p><h3>Learning Behaviour Analysis</h3><p>Python + EDA</p><button class="view">View details ↗</button></div>
+    </article>
+    <article class="project" data-cat="web" data-title="Verdas — E-Commerce Platform" data-desc="Full-stack e-commerce platform connecting farmers directly to consumers. Built with a relational MySQL schema in a team of four." data-tech="Python, HTML, CSS, MySQL">
+      <div class="project-media media-web"><span>WEB</span><b>Verdas<br>For Farmers</b></div><div class="project-body"><p>WEB · JAN 2024 — MAY 2024</p><h3>Verdas — E-Commerce Platform</h3><p>Python · HTML · CSS · MySQL</p><button class="view">View details ↗</button></div>
+    </article>
+  </div>
+  <div class="media-note"><b>Want to add your own media?</b> Each project can be expanded with screenshots, demo videos, GitHub links and live-demo links. See <code>HOW_TO_ADD_PROJECTS.md</code> in this package.</div>
+</section>
+
+<section id="contact" class="section contact">
+  <p class="eyebrow">05 · CONTACT</p><h2>Let’s build something useful with data.</h2>
+  <p>For opportunities, project collaboration or a quick conversation, reach out.</p>
+  <div class="contact-actions"><a class="btn primary" href="mailto:kalyanparvathamkalyan@gmail.com">Email me</a><a class="btn ghost" href="https://www.linkedin.com/in/kalyan-parvatham-476619299/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+  <footer>© <span id="year"></span> Kalyan Parvatham · Built for a data-driven career.</footer>
+</section>
+</main>
+
+<div class="modal" id="modal"><div class="modal-card"><button class="close" id="close">×</button><p class="eyebrow" id="mcat"></p><h2 id="mtitle"></h2><p id="mdesc"></p><div class="tags" id="mtech"></div><div class="modal-media" id="mmedia"></div></div></div>
+<script src="script.js"></script>
+</body>
+</html>
